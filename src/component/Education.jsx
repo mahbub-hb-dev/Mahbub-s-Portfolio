@@ -30,7 +30,7 @@ const Education = () => {
                     <div>
                         <h3 className='text-xl font-bold'> Rajbari Government College, Rajbari </h3>
                         <h5> Masters of Business Administration (MBA) </h5>
-                        <p className='text-[12px]'> 2017 - 2021 </p>
+                        <p className='text-[12px]'> 2022 - 2023 </p>
                     </div>
                 </div>
                 <div>
@@ -47,7 +47,7 @@ const Education = () => {
                     <div>
                         <h3 className='text-xl font-bold'> Rajbari Government College, Rajbari </h3>
                         <h5> Bachelor of Business Administration (BBA) </h5>
-                        <p className='text-[12px]'> 2021 - 2022 </p>
+                        <p className='text-[12px]'> 2017 - 2021 </p>
                     </div>
                 </div>
                 <div>

@@ -13,6 +13,54 @@ const Projects = () => {
             
             <div className='project-card flex flex-col'>
                 <div>
+                    <img className='rounded-lg' src="/images/projects/country.png" alt="project image" />
+                </div>
+                <div className='project-technology-container'>
+                    <span className='project-technology'> HTML </span>
+                    <span className='project-technology'> CSS </span>
+                    <span className='project-technology'> Tailwind CSS </span>
+                    <span className='project-technology'> React JS </span>
+                    <span className='project-technology'> Javascript </span>
+                </div>
+                <div className='my-3'>
+                    <h3 className='text-gray-300 text-2xl font-bold'> Country Information </h3>
+                    <p className='text-gray-400 text-[12px]'> 10 / 07 / 2025 </p>
+                </div>
+                <div>
+                    <p className='text-gray-400'> This is small but very effective web application. You can search any country to get the information abuot that country. You will get name, capital, region, area & population. </p>
+                </div>
+                <div className='flex flex-1 items-end justify-between'>
+                    <a target='_blank' rel="noopener noreferrer" href="https://github.com/mahbub-hb-dev/Country-App.git" className='project-btn'> View Codes </a>
+                    <a target='_blank' rel="noopener noreferrer" href="https://mhbelals-country-app.netlify.app/" className='project-btn'> View Live App </a>
+                </div>
+            </div>
+
+            <div className='project-card flex flex-col'>
+                <div>
+                    <img className='rounded-lg' src="/images/projects/library.png" alt="project image" />
+                </div>
+                <div className='project-technology-container'>
+                    <span className='project-technology'> HTML </span>
+                    <span className='project-technology'> CSS </span>
+                    <span className='project-technology'> Tailwind CSS </span>
+                    <span className='project-technology'> React JS </span>
+                    <span className='project-technology'> Javascript </span>
+                </div>
+                <div className='my-3'>
+                    <h3 className='text-gray-300 text-2xl font-bold'> My Library </h3>
+                    <p className='text-gray-400 text-[12px]'> 12 / 09 / 2025 </p>
+                </div>
+                <div>
+                    <p className='text-gray-400'> This is a library project. Thousand of books you can get from this online library. Currently this library giving 10% discount for every single book. You won't get this opportunity again. </p>
+                </div>
+                <div className='flex flex-1 items-end justify-between'>
+                    <a target='_blank' rel="noopener noreferrer" href="https://github.com/mahbub-hb-dev/My-Library.git" className='project-btn'> View Codes </a>
+                    <a target='_blank' rel="noopener noreferrer" href="https://my-library-plum.vercel.app/" className='project-btn'> View Live App </a>
+                </div>
+            </div>
+
+            <div className='project-card flex flex-col'>
+                <div>
                     <img className='rounded-lg' src="/images/projects/personal-portfolio.png" alt="project image" />
                 </div>
                 <div className='project-technology-container'>
@@ -100,30 +148,6 @@ const Projects = () => {
 
             <div className='project-card flex flex-col'>
                 <div>
-                    <img className='rounded-lg' src="/images/projects/country.png" alt="project image" />
-                </div>
-                <div className='project-technology-container'>
-                    <span className='project-technology'> HTML </span>
-                    <span className='project-technology'> CSS </span>
-                    <span className='project-technology'> Tailwind CSS </span>
-                    <span className='project-technology'> React JS </span>
-                    <span className='project-technology'> Javascript </span>
-                </div>
-                <div className='my-3'>
-                    <h3 className='text-gray-300 text-2xl font-bold'> Country Information </h3>
-                    <p className='text-gray-400 text-[12px]'> 10 / 07 / 2025 </p>
-                </div>
-                <div>
-                    <p className='text-gray-400'> This is small but very effective web application. You can search any country to get the information abuot that country. You will get name, capital, region, area & population. </p>
-                </div>
-                <div className='flex flex-1 items-end justify-between'>
-                    <a target='_blank' rel="noopener noreferrer" href="https://github.com/mahbub-hb-dev/Country-App.git" className='project-btn'> View Codes </a>
-                    <a target='_blank' rel="noopener noreferrer" href="https://mhbelals-country-app.netlify.app/" className='project-btn'> View Live App </a>
-                </div>
-            </div>
-
-            <div className='project-card flex flex-col'>
-                <div>
                     <img className='rounded-lg' src="/images/projects/todo app.png" alt="project image" />
                 </div>
                 <div className='project-technology-container'>
@@ -143,30 +167,6 @@ const Projects = () => {
                 <div className='flex flex-1 items-end justify-between'>
                     <a target='_blank' rel="noopener noreferrer" href="https://github.com/mahbub-hb-dev/Todo-App.git" className='project-btn'> View Codes </a>
                     <a target='_blank' rel="noopener noreferrer" href="https://mahbubs-todo-app.netlify.app/" className='project-btn'> View Live App </a>
-                </div>
-            </div>
-
-            <div className='project-card flex flex-col'>
-                <div>
-                    <img className='rounded-lg' src="/images/projects/library.png" alt="project image" />
-                </div>
-                <div className='project-technology-container'>
-                    <span className='project-technology'> HTML </span>
-                    <span className='project-technology'> CSS </span>
-                    <span className='project-technology'> Tailwind CSS </span>
-                    <span className='project-technology'> React JS </span>
-                    <span className='project-technology'> Javascript </span>
-                </div>
-                <div className='my-3'>
-                    <h3 className='text-gray-300 text-2xl font-bold'> My Library </h3>
-                    <p className='text-gray-400 text-[12px]'> 12 / 09 / 2025 </p>
-                </div>
-                <div>
-                    <p className='text-gray-400'> This is a library project. Thousand of books you can get from this online library. Currently this library giving 10% discount for every single book. You won't get this opportunity again. </p>
-                </div>
-                <div className='flex flex-1 items-end justify-between'>
-                    <a target='_blank' rel="noopener noreferrer" href="https://github.com/mahbub-hb-dev/My-Library.git" className='project-btn'> View Codes </a>
-                    <a target='_blank' rel="noopener noreferrer" href="https://my-library-plum.vercel.app/" className='project-btn'> View Live App </a>
                 </div>
             </div>
 
