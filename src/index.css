@@ -6,6 +6,10 @@
 
 
 @layer base {
+  ::selection {
+    background-color: #ff5079;
+    color: white;
+  }
   html {
     scroll-behavior: smooth;
   }
