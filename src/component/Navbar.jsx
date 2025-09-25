@@ -4,7 +4,7 @@ const Navbar = () => {
   return (
     <header>
 
-        <nav className="bg-[rgba(0,0,0,0.75)] md:bg-black dark:bg-gray-900 fixed w-full z-20 top-0 start-0">
+        <nav className="bg-[rgba(0,0,0,0.78)] md:bg-black fixed w-full z-20 top-0 start-0">
             <div className="max-w-[1180px] flex flex-wrap items-center justify-between mx-auto p-4">
                 
                 <a href="#about" className="flex items-center space-x-3 rtl:space-x-reverse">
