@@ -32,7 +32,7 @@ const Hero = () => {
   return (
     <div id="about" className="bg-[#191924] mt-[74px]">
 
-      <div className="max-w-[1180px] mx-auto py-10 px-3 lg:flex lg:flex-row-reverse">
+      <div className="max-w-[1180px] mx-auto py-5 lg:py-10 px-3 lg:flex lg:flex-row-reverse">
         <div className="py-10 lg:flex-1">
           <img className="w-[260px] sm:w-[430px] outline-2 outline-offset-1 outline-purple-600 rounded rounded-full block m-auto" src="/images/profile.jpg" alt="Profile image"/>
         </div>

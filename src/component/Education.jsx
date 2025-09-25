@@ -2,7 +2,7 @@ import React from 'react'
 
 const Education = () => {
   return (
-    <section id='education' className='common-section-style bg-[#1C1C27]'>
+    <section id='education' className='px-3 common-section-style bg-[#1C1C27]'>
         <h2 className='common-h2'> Education </h2>
         <p className='custom-mute text-center my-5'> My education has been a journey of self-discovery and growth. <span className='min-[520px]:block'>My educational details are as follows.</span> </p>
 

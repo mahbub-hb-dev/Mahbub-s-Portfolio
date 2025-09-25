@@ -29,13 +29,13 @@
     @apply text-white text-3xl sm:text-4xl md:text-5xl font-bold text-center;
   }
   .common-section-style {
-    @apply pt-[80px] pb-5;
+    @apply pt-[75px] pb-5;
   }
   /* Common design end  */
 
   /* Project section design start  */
   .project-card {
-    @apply w-[330px] bg-[#171721] shadow-[0px_0px_12px_4px_rgba(0,0,0,0.4)] rounded-[10px] h-[490px] px-5 py-6 transition-all duration-300 hover:translate-y-1;
+    @apply max-w-[330px] bg-[#171721] shadow-[0px_0px_12px_4px_rgba(0,0,0,0.4)] rounded-[10px] h-[490px] px-5 py-6 transition-all duration-300 hover:translate-y-1;
   }
   .project-btn {
     @apply text-white text-sm text-center border rounded-md w-[125px] py-2 bg-gradient-to-r from-fuchsia-500 to-purple-500;

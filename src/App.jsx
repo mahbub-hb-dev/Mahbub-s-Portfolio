@@ -8,9 +8,7 @@ import Contact from './component/Contact'
 import Footer from './component/Footer'
 
 function App() {
-
   return (
-
     <>
       <Navbar />
       <Hero />
@@ -20,7 +18,6 @@ function App() {
       <Contact />
       <Footer />
     </>
-
   )
 }
 

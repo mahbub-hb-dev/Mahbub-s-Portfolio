@@ -2,7 +2,7 @@ import React from 'react'
 
 const Contact = () => {
   return (
-    <section id='contact' className='common-section-style bg-gradient-to-bl from-[#000] via-[#1d1c1c] to-[#6e0456]'>
+    <section id='contact' className='px-3 pb-10 common-section-style bg-gradient-to-bl from-[#1A1E30] to-[#311A40]'>
         <h2  className='common-h2'> Contact </h2>
         <p className='custom-mute text-center my-5'> Feel free to reach out to me for any questions or opportunities! </p>
 
