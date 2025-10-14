@@ -27,7 +27,7 @@ const Projects = () => {
                     <p className='text-gray-400 text-[12px]'> 10 / 07 / 2025 </p>
                 </div>
                 <div>
-                    <p className='text-gray-400'> This is small but very effective web application. You can search any country to get the information abuot that country. You will get name, capital, region, area & population. </p>
+                    <p className='text-gray-400'> This is a small web application about information of different countries. You can search countries by name and get information about capital, population, area and flag of those countries. </p>
                 </div>
                 <div className='flex flex-1 items-end justify-between'>
                     <a target='_blank' rel="noopener noreferrer" href="https://github.com/mahbub-hb-dev/Country-App.git" className='project-btn'> View Codes </a>
@@ -51,7 +51,7 @@ const Projects = () => {
                     <p className='text-gray-400 text-[12px]'> 12 / 09 / 2025 </p>
                 </div>
                 <div>
-                    <p className='text-gray-400'> This is a library project. Thousand of books you can get from this online library. Currently this library giving 10% discount for every single book. You won't get this opportunity again. </p>
+                    <p className='text-gray-400'> This is a demo project of a library. I will update this website in future. </p>
                 </div>
                 <div className='flex flex-1 items-end justify-between'>
                     <a target='_blank' rel="noopener noreferrer" href="https://github.com/mahbub-hb-dev/My-Library.git" className='project-btn'> View Codes </a>
@@ -72,7 +72,7 @@ const Projects = () => {
                     <p className='text-gray-400 text-[12px]'> 12 / 10 / 2024 </p>
                 </div>
                 <div>
-                    <p className='text-gray-400'> This is my first simple portfolio website. I made this site with HTML and CSS only. This is very simple and fully responsive website. </p>
+                    <p className='text-gray-400'> This is my first simple portfolio website. I made this website with HTML and CSS only. This is very simple and fully responsive website. </p>
                 </div>
                 <div className='flex flex-1 items-end justify-between'>
                     <a target='_blank' rel='noopener noreferrer' href="https://github.com/mahbub-hb-dev/Personal-Website.git" className='project-btn'> View Codes </a>
@@ -94,7 +94,7 @@ const Projects = () => {
                     <p className='text-gray-400 text-[12px]'> 02 / 06 / 2025 </p>
                 </div>
                 <div>
-                    <p className='text-gray-400'> This is a very simple website for Jamiya Karimiya Madrashah. I designed this website with Tailwind CSS. This is a dynamic website. It took 1 day to make this website. </p>
+                    <p className='text-gray-400'> This is a demo website. To make this website I used Tailwind CSS. I will update this website in future. </p>
                 </div>
                 <div className='flex flex-1 items-end justify-between'>
                     <a target='_blank' rel="noopener noreferrer" href="https://github.com/mahbub-hb-dev/Simple-madrasha-website.git" className='project-btn'> View Codes </a>
@@ -116,7 +116,7 @@ const Projects = () => {
                     <p className='text-gray-400 text-[12px]'> 17 / 05 / 2025 </p>
                 </div>
                 <div>
-                    <p className='text-gray-400'> This is a special website. This is responsive and dynamic website. It tooks 2 days to make this website. I will update this site day by day. </p>
+                    <p className='text-gray-400'> This is a demo Real Estate project. I made this website using HTML and CSS only. I haven't added any links to it yet. The buttons below will not work. </p>
                 </div>
                 <div className='flex flex-1 items-end justify-between'>
                     <a href="" className='project-btn'> View Codes </a>
@@ -138,7 +138,7 @@ const Projects = () => {
                     <p className='text-gray-400 text-[12px]'> 28 / 04 / 2025 </p>
                 </div>
                 <div>
-                    <p className='text-gray-400'> This is a personal blog website. I go to difference restaurents and take foods and review foods. I enjoy very much this job. I love this restaurent. </p>
+                    <p className='text-gray-400'> This is a demo personal blog website. I made this website using HTML and CSS only. I haven't added any links to it. The buttons below will not work. </p>
                 </div>
                 <div className='flex flex-1 items-end justify-between'>
                     <a href="" className='project-btn'> View Codes </a>
@@ -162,7 +162,7 @@ const Projects = () => {
                     <p className='text-gray-400 text-[12px]'> 20 / 08 / 2025 </p>
                 </div>
                 <div>
-                    <p className='text-gray-400'> This is a mini todo app. By this app, you can add and delete todo. I made this web app for fun. I love fun with technologies. </p>
+                    <p className='text-gray-400'> This is a mini react todo project. In this app, you can add and delete something. </p>
                 </div>
                 <div className='flex flex-1 items-end justify-between'>
                     <a target='_blank' rel="noopener noreferrer" href="https://github.com/mahbub-hb-dev/Todo-App.git" className='project-btn'> View Codes </a>
@@ -184,7 +184,7 @@ const Projects = () => {
                     <p className='text-gray-400 text-[12px]'> 05 / 07 / 2025 </p>
                 </div>
                 <div>
-                    <p className='text-gray-400'> I made this project by HTML, CSS and Javascript only. I made this todo app for fun. You can only add todos with this app and you will get the fun. I made this site by playing. </p>
+                    <p className='text-gray-400'> I made this project with HTML, CSS and Javascript. You can only add something in this app. I made this todo app for fun! </p>
                 </div>
                 <div className='flex flex-1 items-end justify-between'>
                     <a target='_blank' rel="noopener noreferrer" href="https://github.com/mahbub-hb-dev/todo-app-basic-js-2025.git" className='project-btn'> View Codes </a>
@@ -205,7 +205,7 @@ const Projects = () => {
                     <p className='text-gray-400 text-[12px]'> 05 / 01 / 2025 </p>
                 </div>
                 <div>
-                    <p className='text-gray-400'> This is a dummy cv project. I made this cv for learning purpose. I created this cv with only HTML and CSS. To make this layout I used CSS float property! </p>
+                    <p className='text-gray-400'> This is a dummy cv project. I created this cv for learning purpose. I created this cv with only HTML and CSS. To make this layout I used CSS float property! </p>
                 </div>
                 <div className='flex flex-1 items-end justify-between'>
                     <a href="" className='project-btn'> View Codes </a>
