@@ -53,4 +53,13 @@ export const projectData = [
         codeLink : 'https://github.com/mahbub-hb-dev/todo-app-basic-js-2025.git',
         liveLink : 'https://mini-todo-js-project.vercel.app/'
     },
+    {
+        img : '/images/projects/crud-app.png',
+        technologies : ['HTML', 'Tailwind CSS', 'React JS'],
+        title : 'CRUD',
+        date : '05 / 10 / 2025',
+        description : 'This is a CRUD app. You can add, edit, remove and delete in this app.',
+        codeLink : 'https://github.com/mahbub-hb-dev/CRUD-APP.git',
+        liveLink : 'https://mhbelalscrud.netlify.app/'
+    },
 ]
