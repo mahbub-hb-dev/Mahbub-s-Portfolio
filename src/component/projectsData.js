@@ -36,13 +36,13 @@ export const projectData = [
         liveLink : 'https://mhbmadrasah.netlify.app/'
     },
     {
-        img : '/images/projects/todo app.png',
-        technologies : ['HTML', 'CSS', 'Tailwind CSS', 'Reacs JS', 'JavaScript'],
+        img : '/images/projects/todo.png',
+        technologies : ['HTML', 'Tailwind CSS', 'Reacs JS'],
         title : 'React Todo',
-        date : '20 / 08 / 2025',
+        date : '03 / 11 / 2025',
         description : 'This is a mini react todo project. In this app, you can add and delete something.',
-        codeLink : 'https://github.com/mahbub-hb-dev/Todo-App.git',
-        liveLink : 'https://mahbubs-todo-app.netlify.app/'
+        codeLink : 'https://github.com/mahbub-hb-dev/todo.git',
+        liveLink : 'https://mhbelal-todo.netlify.app/'
     },
     {
         img : '/images/projects/dynamic-calculator.png',
