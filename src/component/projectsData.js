@@ -33,7 +33,7 @@ export const projectData = [
         date : '02 / 06 / 2025',
         description : 'This is a demo website. To make this website I used Tailwind CSS. I will update this website in future.',
         codeLink : 'https://github.com/mahbub-hb-dev/Simple-madrasha-website.git',
-        liveLink : 'https://bespoke-kheer-fb6584.netlify.app/'
+        liveLink : 'https://mhbmadrasah.netlify.app/'
     },
     {
         img : '/images/projects/todo app.png',
@@ -61,5 +61,14 @@ export const projectData = [
         description : 'This is a CRUD app. You can add, edit, remove and delete in this app.',
         codeLink : 'https://github.com/mahbub-hb-dev/CRUD-APP.git',
         liveLink : 'https://mhbelalscrud.netlify.app/'
+    },
+    {
+        img : '/images/projects/dummy-layout.png',
+        technologies : ['HTML', 'CSS'],
+        title : 'Dummy Layout',
+        date : '02 / 08 / 2025',
+        description : 'This is a simple layout that I created using only HTML & CSS',
+        codeLink : 'https://github.com/mahbub-hb-dev/simple-css-layout-4.git',
+        liveLink : 'https://mhb-csslayout-4.netlify.app/'
     },
 ]
