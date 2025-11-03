@@ -1,7 +1,7 @@
 export const projectData = [
     {
         img : '/images/projects/country.png',
-        technologies : ['HTML', 'CSS', 'Tailwind CSS', 'React', 'JavaScript'],
+        technologies : ['HTML', 'Tailwind CSS', 'React'],
         title : 'Country Information',
         date : '10 / 07 / 2025',
         description : 'This is a small web application about information of different countries. You can search countries by name and get information about capital, population, area and flag of those countries.',
@@ -10,7 +10,7 @@ export const projectData = [
     },
     {
         img : '/images/projects/library.png',
-        technologies : ['HTML', 'CSS', 'Tailwind CSS', 'React', 'JavaScript'],
+        technologies : ['HTML', 'Tailwind CSS', 'React'],
         title : 'My Library',
         date : '12 / 09 / 2025',
         description : 'This is a demo project of a library. I will update this website in future.',
@@ -45,19 +45,19 @@ export const projectData = [
         liveLink : 'https://mahbubs-todo-app.netlify.app/'
     },
     {
-        img : '/images/projects/js todo.png',
+        img : '/images/projects/dynamic-calculator.png',
         technologies : ['HTML', 'CSS', 'JavaScript'],
-        title : 'JS Todo App',
-        date : '05 / 07 / 2025',
-        description : 'I made this project with HTML, CSS and Javascript. You can only add something in this app. I made this todo app for fun!',
-        codeLink : 'https://github.com/mahbub-hb-dev/todo-app-basic-js-2025.git',
-        liveLink : 'https://mini-todo-js-project.vercel.app/'
+        title : 'Calculator',
+        date : '12 / 10 / 2025',
+        description : 'This is a dynamic calculator. You can calculate by this app easily.',
+        codeLink : 'https://github.com/mahbub-hb-dev/dynamic-calculator.git',
+        liveLink : 'https://mhbelals-calculator.vercel.app/'
     },
     {
         img : '/images/projects/crud-app.png',
         technologies : ['HTML', 'Tailwind CSS', 'React JS'],
         title : 'CRUD',
-        date : '05 / 10 / 2025',
+        date : '08 / 10 / 2025',
         description : 'This is a CRUD app. You can add, edit, remove and delete in this app.',
         codeLink : 'https://github.com/mahbub-hb-dev/CRUD-APP.git',
         liveLink : 'https://mhbelalscrud.netlify.app/'
@@ -70,5 +70,14 @@ export const projectData = [
         description : 'This is a simple layout that I created using only HTML & CSS',
         codeLink : 'https://github.com/mahbub-hb-dev/simple-css-layout-4.git',
         liveLink : 'https://mhb-csslayout-4.netlify.app/'
+    },
+    {
+        img : '/images/projects/dummy-dev.png',
+        technologies : ['HTML', 'CSS'],
+        title : 'Dummy Developer Layout',
+        date : '02 / 10 / 2024',
+        description : 'This is a dummy portfolio layout that I created using HTML & CSS only',
+        codeLink : 'https://github.com/mahbub-hb-dev/Dummy-Portfolio.git',
+        liveLink : 'https://mhbelal-dummy-portfolio.netlify.app/'
     },
 ]
