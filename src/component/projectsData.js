@@ -24,7 +24,7 @@ export const projectData = [
         date : '12 / 10 / 2024',
         description : 'This is my first simple portfolio website. I made this website with HTML and CSS only. This is very simple and fully responsive website.',
         codeLink : 'https://github.com/mahbub-hb-dev/Personal-Website.git',
-        liveLink : 'https://mahbub-hb-dev.github.io/Personal-Website/'
+        liveLink : 'https://mhb-first-portfolio.netlify.app/'
     },
     {
         img : '/images/projects/madrashah.png',
