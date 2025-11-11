@@ -19,6 +19,10 @@ const othersData = [
         image : "images/icons/figma-icon.svg",
         title : "Figma"
     },
+    {
+        image : "images/icons/chrome-devtools.svg",
+        title : "Chrome DevTools"
+    },
 ]
 
 const OthersSkills = () => {

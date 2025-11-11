@@ -35,6 +35,10 @@ const frontendData = [
         image : "images/icons/tailwindcss.svg",
         title : "Tailwind CSS"
     },
+    {
+        image : "images/icons/typescript.svg",
+        title : "TypeScript"
+    },
 ]
 
 const FrontendSkills = () => {
