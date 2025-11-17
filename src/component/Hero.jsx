@@ -13,10 +13,11 @@ const Hero = () => {
     
     const typed = new Typed("#typewriter", {
       strings: [
+        "Frontend Developer",
+        "React Developer",
+        "JavaScript Developer",
         "Web Developer",
-        "Frontend Designer",
-        "JavaScript Learner",
-        "React Enthusiast",
+        "MERN Stack Learner"
       ],
       typeSpeed: 100,
       backSpeed: 50,
