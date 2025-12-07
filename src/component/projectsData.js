@@ -55,7 +55,7 @@ export const projectData = [
     },
     {
         img : '/images/projects/crud-app.png',
-        technologies : ['HTML', 'Tailwind CSS', 'React JS'],
+        technologies : ['HTML', 'Tailwind CSS', 'React JS', 'Redux Toolkit'],
         title : 'CRUD',
         date : '08 / 10 / 2025',
         description : 'This is a CRUD app. You can add, edit, remove and delete in this app.',
