@@ -32,11 +32,13 @@ const OthersSkills = () => {
         <h3 className="font-bold text-[26px] text-center"> Others </h3>
 
         <div className="my-1 p-5 flex flex-wrap gap-3 justify-center">
+
             {othersData.map((data, index) => (
                 <div key={index} className='flex gap-2 border rounded-xl py-3 px-4 max-sm:text-sm max-sm:px-3 max-sm:py-2'>
-                    <img className='w-6 h-6' src={data.image} alt="" /> <span> {data.title} </span>
+                    <img className='w-6 h-6' src={data.image} alt={data.title} /> <span> {data.title} </span>
                 </div>
             ))}
+            
         </div>
 
     </div>
