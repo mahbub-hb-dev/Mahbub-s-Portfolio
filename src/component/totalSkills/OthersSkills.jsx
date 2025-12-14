@@ -25,9 +25,18 @@ const othersData = [
     },
 ]
 
+import AOS from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
+
 const OthersSkills = () => {
+
+    useEffect(() => {
+        AOS.init();
+    }, []);
+
   return (
-    <div className="w-[300px] sm:w-[400px] md:w-[500px] mx-auto border border-purple-600 rounded-xl shadow-[0px_4px_24px_rgba(23,92,230,0.15)] text-gray-400 py-3 my-7">
+    <div data-aos="fade-up" data-aos-duration="900" data-aos-delay="10" className="w-[300px] sm:w-[400px] md:w-[500px] mx-auto border border-purple-600 rounded-xl shadow-[0px_4px_24px_rgba(23,92,230,0.15)] text-gray-400 py-3 my-7">
                         
         <h3 className="font-bold text-[26px] text-center"> Others </h3>
 

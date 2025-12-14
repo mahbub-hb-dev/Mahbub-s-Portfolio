@@ -82,7 +82,15 @@ const projectData = [
     },
 ]
 
+import AOS from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
+
 const Projects = () => {
+
+    useEffect(() => {
+        AOS.init();
+    }, []);
 
   return (
     <section id='projects' className='px-3 common-section-style bg-[#191924]'>
@@ -90,10 +98,10 @@ const Projects = () => {
         <h2 className='common-h2'> Projects </h2>
         <p className='custom-mute text-center my-5'> I have experience doing some projects. <span className='block md:inline'>Here are a few examples of my work.</span> </p>
 
-        <div className='px-3 py-7 flex flex-wrap justify-center items-center gap-7'>
+        <div className='px-3 py-7 flex flex-wrap justify-center items-center gap-7 overflow-x-hidden'>
 
             {projectData.map((data, index) => (
-                <div key={index} className='project-card flex flex-col'>
+                <div key={index} data-aos="zoom-in" data-aos-duration="900" data-aos-delay="50" className='project-card flex flex-col'>
                     <div>
                         <img className='rounded-lg' src={data.img} alt="project image" />
                     </div>

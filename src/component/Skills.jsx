@@ -10,7 +10,7 @@ const Skills = () => {
             <h2 className='common-h2'> Skills </h2>
             <p className="text-center custom-mute my-5 sm:px-9">Here are some of my skills. Some I have learned and some I am still learning.</p>
             
-            <div className='px-3 py-7 flex gap-4 flex-wrap'>
+            <div className='px-3 py-7 flex gap-4 flex-wrap overflow-x-hidden'>
                 <FrontendSkills />
                 <BackendSkills />
                 <OthersSkills />

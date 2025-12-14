@@ -1,5 +1,8 @@
 import React, { useState } from 'react'
 import { toast, Toaster } from 'react-hot-toast'
+import AOS from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
 
 const Contact = () => {
   const [formData, setFormData] = useState({
@@ -33,6 +36,10 @@ const Contact = () => {
     }, 1000)
   }
 
+  useEffect(() => {
+    AOS.init();
+  }, []);
+
   return (
     <section id='contact' className='px-3 pb-10 common-section-style bg-gradient-to-bl from-[#1A1E30] to-[#311A40]'>
       <Toaster position="top-center" reverseOrder={false} />
@@ -40,7 +47,7 @@ const Contact = () => {
       <h2 className='common-h2'> Contact </h2>
       <p className='custom-mute text-center my-5'> Feel free to reach out to me for any questions or opportunities! </p>
 
-      <form
+      <form data-aos="zoom-in-up" data-aos-duration="900" data-aos-delay="10"
         onSubmit={handleSubmit}
         className='max-w-[600px] mx-auto p-8 bg-[#171721] shadow-[0_4px_24px_rgba(23,92,230,0.15)] rounded-xl'
       >

@@ -37,16 +37,25 @@ const educationData = [
     },
 ]
 
+import AOS from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
+
 const Education = () => {
+
+    useEffect(() => {
+        AOS.init();
+    }, []);
+
   return (
     <section id='education' className='px-3 common-section-style bg-[#1C1C27]'>
 
         <h2 className='common-h2'> Education </h2>
         <p className='custom-mute text-center my-5'> My education has been a journey of self-discovery and growth. <span className='min-[520px]:block'>My educational details are as follows.</span> </p>
 
-        <div className='py-7'>
+        <div className='py-7 overflow-x-hidden'>
             {educationData.map((data, index) => (
-                <div key={index} className='education w-[300px] mx-auto md:w-[650px] common-border rounded-xl text-gray-400 p-4 mb-6'>
+                <div key={index} data-aos="flip-up" data-aos-duration="600" data-aos-delay="10" className='education w-[300px] mx-auto md:w-[650px] common-border rounded-xl text-gray-400 p-4 mb-6'>
                     <div className='flex gap-4'>
                         <div>
                             <img className='w-14 rounded-xl' src={data.image} alt={data.alt} />
