@@ -1,3 +1,5 @@
+
+
 const backendData = [
     {
         image : "images/icons/nodejs-1.svg",
@@ -13,18 +15,11 @@ const backendData = [
     }
 ]
 
-import AOS from "aos";
-import "aos/dist/aos.css";
-import { useEffect } from "react";
 
 const BackendSkills = () => {
 
-    useEffect(() => {
-        AOS.init();
-    }, []);
-
   return (
-    <div data-aos={window.innerWidth < 768 ? "fade-up" : "fade-left"} data-aos-duration="900" data-aos-delay="50" className="w-[300px] sm:w-[400px] md:w-[500px] mx-auto border border-purple-600 shadow-[0px_4px_24px_rgba(23,92,230,0.15)] rounded-xl text-gray-400 py-3 my-7">
+    <div data-aos="fade-up" data-aos-duration="900" className="max-w-[300px] sm:max-w-[400px] md:max-w-[500px] mx-auto border border-purple-600 shadow-[0px_4px_24px_rgba(23,92,230,0.15)] rounded-xl text-gray-400 py-3 my-7">
                         
         <h3 className="font-bold text-[26px] text-center"> Backend </h3>
 
