@@ -4,7 +4,7 @@ const projectData = [
         technologies : ['HTML', 'Tailwind CSS', 'React'],
         title : 'Country Information',
         date : '10 / 07 / 2025',
-        description : 'This is a small web application about information of different countries. You can search countries by name and get information about capital, population, area and flag of those countries.',
+        description : 'This project is built using React.js and Tailwind CSS. Integrated REST APIs to fetch and display dynamic data, with proper loading and error handling.',
         codeLink : 'https://github.com/mahbub-hb-dev/Country-App.git',
         liveLink : 'https://mhbelals-country-app.netlify.app/'
     },

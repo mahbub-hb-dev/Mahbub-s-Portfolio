@@ -67,7 +67,7 @@ const Navbar = () => {
               <li>
                 <a
                   href="#about"
-                  className="block py-2 px-3 text-white transition-all hover:text-fuchsia-500 md:p-0 cursor-pointer"
+                  className="block py-2 px-3 text-white transition-all hover:text-fuchsia-500 md:p-0 cursor-text"
                 >
                   About
                 </a>
@@ -75,7 +75,7 @@ const Navbar = () => {
               <li>
                 <a
                   href="#skills"
-                  className="block py-2 px-3 text-white transition-all hover:text-fuchsia-500 md:p-0 cursor-pointer"
+                  className="block py-2 px-3 text-white transition-all hover:text-fuchsia-500 md:p-0 cursor-text"
                 >
                   Skills
                 </a>
@@ -83,7 +83,7 @@ const Navbar = () => {
               <li>
                 <a
                   href="#projects"
-                  className="block py-2 px-3 text-white transition-all hover:text-fuchsia-500 md:p-0 cursor-pointer"
+                  className="block py-2 px-3 text-white transition-all hover:text-fuchsia-500 md:p-0 cursor-text"
                 >
                   Projects
                 </a>
@@ -91,7 +91,7 @@ const Navbar = () => {
               <li>
                 <a
                   href="#education"
-                  className="block py-2 px-3 text-white transition-all hover:text-fuchsia-500 md:p-0 cursor-pointer"
+                  className="block py-2 px-3 text-white transition-all hover:text-fuchsia-500 md:p-0 cursor-text"
                 >
                   Education
                 </a>
@@ -99,7 +99,7 @@ const Navbar = () => {
               <li>
                 <a
                   href="#contact"
-                  className="block py-2 px-3 text-white transition-all hover:text-fuchsia-500 md:p-0 cursor-pointer"
+                  className="block py-2 px-3 text-white transition-all hover:text-fuchsia-500 md:p-0 cursor-text"
                 >
                   Contact
                 </a>
