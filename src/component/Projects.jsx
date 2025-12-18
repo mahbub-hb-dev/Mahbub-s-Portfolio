@@ -1,5 +1,14 @@
 const projectData = [
     {
+        img : '/images/projects/fake-store.png',
+        technologies : ['HTML', 'CSS', 'JavaScript', 'Tailwind CSS', 'React'],
+        title : 'Fake Store App',
+        date : '18 / 12 / 2025',
+        description : 'A responsive React e-commerce app with category filtering, animated cart, persistent state, and modern UI built using React, Context API, and Tailwind CSS.',
+        codeLink : 'https://github.com/mahbub-hb-dev/fake-store-app.git',
+        liveLink : 'https://mhb-fakestore.vercel.app/'
+    },
+    {
         img : '/images/projects/country.png',
         technologies : ['HTML', 'Tailwind CSS', 'React'],
         title : 'Country Information',
@@ -61,15 +70,6 @@ const projectData = [
         description : 'This is a CRUD app. You can add, edit, remove and delete in this app.',
         codeLink : 'https://github.com/mahbub-hb-dev/CRUD-APP.git',
         liveLink : 'https://mhbelalscrud.netlify.app/'
-    },
-    {
-        img : '/images/projects/dummy-layout.png',
-        technologies : ['HTML', 'CSS'],
-        title : 'Dummy Layout',
-        date : '02 / 08 / 2025',
-        description : 'This is a simple layout that I created using only HTML & CSS',
-        codeLink : 'https://github.com/mahbub-hb-dev/simple-css-layout-4.git',
-        liveLink : 'https://mhb-csslayout-4.netlify.app/'
     },
     {
         img : '/images/projects/dummy-dev.png',

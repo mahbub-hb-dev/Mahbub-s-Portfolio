@@ -19,7 +19,7 @@ const backendData = [
 const BackendSkills = () => {
 
   return (
-    <div data-aos="fade-up" data-aos-duration="900" className="max-w-[300px] sm:max-w-[400px] md:max-w-[500px] mx-auto border border-purple-600 shadow-[0px_4px_24px_rgba(23,92,230,0.15)] rounded-xl text-gray-400 py-3 my-7">
+    <div className="max-w-[300px] sm:max-w-[400px] md:max-w-[500px] mx-auto border border-purple-600 shadow-[0px_4px_24px_rgba(23,92,230,0.15)] rounded-xl text-gray-400 py-3 my-7">
                         
         <h3 className="font-bold text-[26px] text-center"> Backend </h3>
 

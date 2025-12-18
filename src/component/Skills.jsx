@@ -1,6 +1,6 @@
-import AOS from "aos";
-import "aos/dist/aos.css";
-import { useEffect } from "react";
+// import AOS from "aos";
+// import "aos/dist/aos.css";
+// import { useEffect } from "react";
 
 import BackendSkills from "./totalSkills/BackendSkills";
 import FrontendSkills from "./totalSkills/FrontendSkills";
@@ -8,13 +8,13 @@ import OthersSkills from "./totalSkills/OthersSkills";
 
 const Skills = () => {
 
-  useEffect(() => {
-    AOS.init({
-      once: true,
-      offset: 120,
-      easing: "ease-out-cubic",
-    });
-  }, []);
+  // useEffect(() => {
+  //   AOS.init({
+  //     once: true,
+  //     offset: 120,
+  //     easing: "ease-out-cubic",
+  //   });
+  // }, []);
 
   return (
     <section id='skills' className="common-section-style bg-[#1C1C27] overflow-x-hidden">
