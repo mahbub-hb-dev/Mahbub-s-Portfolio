@@ -42,7 +42,7 @@
     @apply max-w-[330px] bg-[#171721] shadow-[0px_0px_12px_4px_rgba(0,0,0,0.4)] rounded-[10px] h-[490px] px-5 py-6 transition-all duration-300 hover:translate-y-1;
   }
   .project-btn {
-    @apply text-white text-sm text-center border rounded-md w-[125px] py-2 bg-gradient-to-r from-fuchsia-500 to-purple-500;
+    @apply text-[#A2F4FD] flex justify-center gap-1.5 border border-gray-700 rounded-2xl w-[120px] p-1 transition hover:bg-gray-800 hover:shadow shadow-amber-300 hover:text-amber-200;
   }
   .project-technology-container {
     @apply text-[rgb(133,76,230)] flex flex-wrap gap-2 mt-3;
