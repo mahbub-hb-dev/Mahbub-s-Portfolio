@@ -4,9 +4,9 @@ const educationData = [
         image : "images/ahmadsit.jpg",
         alt : "Ahamd's Education logo",
         instituteName : "Ahmad's Education IT Institute",
-        department : "Web Development",
-        duration : "April 2025 - Current",
-        desc : "I am learning Web Development at Ahmad's Education IT Institute and I also completed 2 month's Spoken English course from here."
+        department : "Diploma in Web Development & English",
+        duration : "2025",
+        desc : "I have successfully completed a diploma in Web Development and Spoken English from Ahmad’s Education."
     },
     {
         id : 2,
@@ -31,9 +31,9 @@ const educationData = [
         image : "images/kumarkhali-college.jpg",
         alt : "Kumarkhali College logo",
         instituteName : "Kumarkhali Government College, Kumarkhali",
-        department : "Business Management (BM)",
+        department : "Business Management",
         duration : "2015 - 2017",
-        desc : "I completed my HSC from the department of Businessment Management (B.M.) Group at Kumarkhali Government College."
+        desc : "I completed my HSC from the department of Businessment Management Group at Kumarkhali Government College."
     },
 ]
 
@@ -63,7 +63,7 @@ const Education = () => {
                         <div>
                             <h3 className='text-xl font-bold'> {data.instituteName} </h3>
                             <h5> {data.department} </h5>
-                            <p className='text-[12px]'> {data.duration} </p>
+                            <p className='text-[12px]'> Session : {data.duration} </p>
                         </div>
                     </div>
                     <div>
