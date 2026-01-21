@@ -76,7 +76,7 @@ const Hero = () => {
             </li>
           </ul>
 
-          <a href="https://drive.google.com/file/d/1Z0Ua7wN20GhkztMJ_E7SktfB_O7l6Uoo/view?usp=sharing" target="_blank" className="animate-bounce focus:animate-none hover:animate-none block w-[230px] sm:w-[300px] mx-auto sm:text-2xl font-medium text-xl bg-[#5C07A9] px-4 py-4 rounded-lg tracking-wide text-white text-center">
+          <a href="https://drive.google.com/file/d/1HTFIcYJbiOiMMldC5cKPplXcz_-roNsV/view?usp=sharing" target="_blank" className="animate-bounce focus:animate-none hover:animate-none block w-[230px] sm:w-[300px] mx-auto sm:text-2xl font-medium text-xl bg-[#5C07A9] px-4 py-4 rounded-lg tracking-wide text-white text-center">
             {" "} Check Resume 🏀 {" "}
           </a>
         </div>
