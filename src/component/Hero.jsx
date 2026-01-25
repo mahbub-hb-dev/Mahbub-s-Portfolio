@@ -41,7 +41,7 @@ const Hero = () => {
         <div className="lg:flex-1">
           <h1 className="font-bold text-[40px] sm:text-[50px] text-white text-center lg:text-left"> {" "} Hi, I am {" "} <span className="block leading-16 text-pink-500">Mahbub Hassan (Belal)</span> </h1>
           <p className="text-white text-center lg:text-left font-bold text-[20px] sm:text-[30px]"> {" "} I am {" "} <span id="typewriter" className="text-purple-500"></span> </p>
-          <p className="custom-mute text-center lg:text-left mt-6"> I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things. </p>
+          <p className="custom-mute text-center lg:text-left mt-6 font-serif"> I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things. </p>
 
           <ul className="flex justify-center gap-7 flex-wrap my-10">
             <li className="mb-3">

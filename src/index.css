@@ -30,7 +30,7 @@
     @apply border border-[rgb(133,76,230)] shadow-[0px_4px_24px_rgba(23,92,230,0.15)];
   }
   .common-h2 {
-    @apply text-white text-3xl sm:text-4xl md:text-5xl font-bold text-center;
+    @apply text-white text-3xl sm:text-4xl md:text-5xl font-bold font-serif text-center;
   }
   .common-section-style {
     @apply pt-[75px] pb-5;

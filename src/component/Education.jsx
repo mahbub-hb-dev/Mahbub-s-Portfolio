@@ -6,14 +6,14 @@ const educationData = [
         instituteName : "Ahmad's Education IT Institute",
         department : "Diploma in Web Development & English",
         duration : "2025",
-        desc : "I have successfully completed a diploma in Web Development and Spoken English from Ahmad’s Education."
+        desc : "I have successfully completed a diploma in Web Development and Spoken English from Ahmad's Education IT institute."
     },
     {
         id : 2,
         image : "images/college-logo.png",
         alt : "Rajbari Government logo",
         instituteName : "Rajbari Government College, Rajbari",
-        department : "Masters of Business Administration (MBA)",
+        department : "Master of Business Administration (MBA)",
         duration : "2022 - 2023",
         desc : "I completed my Master's degree from the Department of Accounting at Rajbari Government College."
     },
@@ -61,8 +61,8 @@ const Education = () => {
                             <img className='w-14 rounded-xl' src={data.image} alt={data.alt} />
                         </div>
                         <div>
-                            <h3 className='text-xl font-bold'> {data.instituteName} </h3>
-                            <h5> {data.department} </h5>
+                            <h3 className='text-xl font-bold font-serif'> {data.department} </h3>
+                            <h5> {data.instituteName} </h5>
                             <p className='text-[12px]'> Session : {data.duration} </p>
                         </div>
                     </div>
